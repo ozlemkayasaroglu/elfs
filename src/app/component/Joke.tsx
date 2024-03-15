@@ -14,17 +14,11 @@ const categories = [
 
 const Joke = () => {
   return (
-    <div className="bg-white flex justify-center text-center items-center ">
-      <div className=" mt-10 mx-auto max-w-xl sm:px-2 sm:py-2 lg:max-w-7xl lg:px-2">
-        <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-          Elf'in Şaka Dükkanı
-        </h2>
-        <p className="mt-4 text-base text-gray-500">
-          Hayatın içerisinde gizlenen güzellikleri görmek için, görebilme
-          yetisine sahip olanlar için tasarlanmıştır.
-        </p>
+    <div className="bg-gradient-to-r from-gray-100 flex justify-center text-center items-center ">
+      <div className="mt-5 mx-auto max-w-xl sm:px-2 sm:py-2 lg:max-w-7xl lg:px-2 ">
+        
 
-        <div className="flex max-w-xl sm:px-6 lg:max-w-3xl">
+        <div className="flex max-w-xl sm:px-6 lg:max-w-3xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 320 512"
@@ -53,9 +47,9 @@ const Joke = () => {
                   />
                 </div>
 
-                <section className="isolate overflow-hidden bg-white px-6 lg:px-8">
-                  <figure className="grid grid-cols-1 items-center gap-x-6 gap-y-8 lg:gap-x-10">
-                    <div className="relative col-span-2 lg:col-start-1 lg:row-start-2">
+                <section className="bg-gradient-to-r from-gray-50 isolate overflow-hidden bg-white px-6 lg:px-8 shadow-md">
+                  <figure className="grid grid-cols-1 items-center gap-x-6 gap-y-8 lg:gap-x-10 ">
+                    <div className="relative col-span-2 lg:col-start-1 lg:row-start-2 ">
                       <svg
                         viewBox="0 0 162 128"
                         fill="none"
@@ -72,7 +66,7 @@ const Joke = () => {
                         />
                       </svg>
                       <blockquote className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl sm:leading-9 xs:text-sm">
-                        <p>{category.description}</p>
+                        <p className="mb-5 ">{category.description}</p>
                       </blockquote>
                     </div>
                   </figure>

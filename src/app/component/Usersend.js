@@ -1,5 +1,5 @@
 import { PlusIcon } from "@heroicons/react/20/solid";
-
+import Link from "next/link";
 const features = [
   {
     name: "Kullanıcı adı",
@@ -32,8 +32,9 @@ const Usersend = () => {
                 </div>
               ))}
             </dl>
-
+            <Link href="/sending">
             <div className="mt-24 flex justify-between shadow-lg p-3 rounded-xl hover:bg-zinc-100">
+              
               <h2 className=" text-gray-800  uppercase font-bold flex items-center ml-2 ">
                 Elf'e Şaka Gönder!
                 
@@ -46,6 +47,7 @@ const Usersend = () => {
                   <path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z" />
                 </svg>
             </div>
+            </Link>
           </div>
 
 
