@@ -27,7 +27,7 @@ const Navbar = () => {
                   Anasayfa
                 </a>
                 <a
-                  href="#"
+                  href="/sending"
                   className=" uppercase font-bold text-gray-600 items-center hover:border-gray-900 border-b-2 border-transparent font-3xl hover:text-gray-900"
                 >
                   Şaka Gönder
