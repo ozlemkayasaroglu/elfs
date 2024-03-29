@@ -1,25 +1,20 @@
 import Image from "next/image";
 
+import ModalButton from "./ModalButton";
+ 
+
+
+
 export default function List() {
   return (
     <>
-    
+    {/* modal button */}
       <div className="flex items-center">
-        <button
-          type="button"
-          className="rounded-full bg-emerald-300 p-2 text-white shadow-xl hover:bg-emerald-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-        >
-          <svg
-            className="h-5 w-5"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            aria-hidden="true"
-          >
-            <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
-          </svg>
-        </button>
+       <ModalButton />
 
-        <div className="-mx-4 opacity-60 hover:opacity-100 flex w-full px-4 py-20 sm:-mx-6 sm:px-6 md:mx-0 2xl:w-full md:rounded-5xl md:px-16 xl:px-24 xl:py-36 -">
+
+{/* Sent List */}
+        <div className="-mx-4 flex w-full px-4 py-20 sm:-mx-6 sm:px-6 md:mx-0 2xl:w-full md:rounded-5xl md:px-16 xl:px-24 xl:py-36 -">
           <div className="divide-y divide-slate-100 flex sm:mt-4 lg:mt-8 lg:border-t lg:border-slate-100">
             <div className=" mt-5 flex rounded-3xl md:w-72 sm:w-72 xs:w-72 bg-white py-10 pr-2 shadow-xl shadow-blue-900/5 focus-within:ring-2 focus-within:ring-blue-900">
               <div className=" flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents relative">
