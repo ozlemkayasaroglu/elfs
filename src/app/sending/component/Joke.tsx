@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import axios from "axios";
-import List from "./list";
+import AddJoke from "./AddJoke";
 
 type Joke = {
   image: String;
@@ -57,7 +57,7 @@ export default function Joke() {
             <p className="font-display text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl">
             Joke of the Day
             </p>
-            <p className="mt-4 text-lg tracking-tight text-blue-900">
+            <p className="mt-4 pt-12 text-lg tracking-tight text-blue-900">
               {randomJokeText}
             </p>
           </div>
@@ -91,7 +91,7 @@ export default function Joke() {
             </div>
           </div>
         </div>
-        <List />
+        <AddJoke />
       </div>
     </>
   );

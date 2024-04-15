@@ -1,20 +1,19 @@
 import Image from "next/image";
-
 import ModalButton from "./ModalButton";
- 
 
 
 
-export default function List() {
+export default function AddJoke() {
+
+
   return (
     <>
-    {/* modal button */}
+      {/* modal button */}
       <div className="flex items-center">
-       <ModalButton />
+        <ModalButton />
 
-
-{/* Sent List */}
-        <div className="-mx-4 flex w-full px-4 py-20 sm:-mx-6 sm:px-6 md:mx-0 2xl:w-full md:rounded-5xl md:px-16 xl:px-24 xl:py-36 -">
+        {/* joke sending */}
+        <div className="-mx-4 flex w-full px-4 py-20 sm:-mx-6 sm:px-6 md:mx-0 2xl:w-full md:rounded-5xl md:px-16 xl:px-24 xl:pb-36 ">
           <div className="divide-y divide-slate-100 flex sm:mt-4 lg:mt-8 lg:border-t lg:border-slate-100">
             <div className=" mt-5 flex rounded-3xl md:w-72 sm:w-72 xs:w-72 bg-white py-10 pr-2 shadow-xl shadow-blue-900/5 focus-within:ring-2 focus-within:ring-blue-900">
               <div className=" flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents relative">

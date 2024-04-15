@@ -1,5 +1,7 @@
+
 import dbConnect from "@/db/MongoClient";
-import Jokes from "@/db/Models/Jokes"
+import Jokes from "@/db/Models/Jokes";
+
 
 export async function GET(){
 await dbConnect();
@@ -9,6 +11,6 @@ const jokes = await Jokes.find({});
 
 
 
-export async function POST(){
+export async function POST(request: Request){
 
 }
