@@ -2,7 +2,8 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import axios from "axios";
-import AddJoke from "./AddJoke";
+import AddJoke from "./ShowOtherJoke";
+import ShowOtherJoke from "./ShowOtherJoke";
 
 type Joke = {
   image: String;
@@ -91,7 +92,7 @@ export default function Joke() {
             </div>
           </div>
         </div>
-        <AddJoke />
+        <ShowOtherJoke />
       </div>
     </>
   );
